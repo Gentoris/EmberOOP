@@ -12,6 +12,9 @@ public class Ember {
             this.szulHely = szulHely;
         }
 
+        public int getSzuletesiEv(){
+
+        }
     @Override
     public String toString() {
         return String.format("%30s %10s %-20s", this.nev, this.szulDatum, this.szulHely);
